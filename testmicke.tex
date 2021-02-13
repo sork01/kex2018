@@ -1,0 +1,160 @@
+% *neode.onsave* setgo rm seminardraft.pdf; xelatex -interaction=nonstopmode seminardraft; biber seminardraft; xelatex -interaction=nonstopmode seminardraft; xelatex -interaction=nonstopmode seminardraft; evince seminardraft.pdf
+
+\documentclass[bachelor]{kththesis}
+
+\usepackage{csquotes} % Recommended by biblatex
+\usepackage{biblatex}
+\addbibresource{sources.bib} % The file containing our references, in BibTeX format
+
+\usepackage{color}
+
+\newcommand{\blue}[1]{{\color{blue} [#1]}}
+\newcommand{\red}[1]{{\color{red} \{#1\}}}
+
+\title{Local search hybridization of a genetic algorithm for solving the University Course Timetabling Problem}
+\alttitle{LokalsÃ¶kningshybridisering av en genetisk algoritm som lÃ¶ser schemalÃ¤ggningsproblemet UCTP}
+\author{Mikael Forsberg}
+\email{miforsb@kth.se}
+\supervisor{Alexander Kozlov}
+\examiner{Ã–rjan Ekeberg}
+\programme{Bachelor's degree in Computer Science}
+\school{School of Computer Science}
+\date{\today}
+
+
+\begin{document}
+
+% Frontmatter includes the titlepage, abstracts and table-of-contents
+\frontmatter
+
+\titlepage
+
+\begin{abstract}
+  English abstract goes here.
+\end{abstract}
+
+
+\begin{otherlanguage}{swedish}
+  \begin{abstract}
+    Abstrakt pÃ¥ svenska.
+  \end{abstract}
+\end{otherlanguage}
+
+
+\tableofcontents
+
+
+% Mainmatter is where the actual contents of the thesis goes
+\mainmatter
+
+
+\chapter{Introduction}
+\noindent \blue{Text in angle brackets is descriptions of planned content (descriptive)}
+
+\noindent \red{Text in curly brackets is sketches of planned content (illustrative)}
+
+\vspace{1cm}
+
+\noindent \blue{Less-technical introductory paragraph.}
+% We use the \emph{biblatex} package to handle our references.  We therefore use the
+% command \texttt{parencite} to get a reference in parenthesis, like this
+% \parencite{heisenberg2015}.  It is also possible to include the author
+% as part of the sentence using \texttt{textcite}, like talking about
+% the work of \textcite{einstein2016}.
+
+The University Course Timetabling Problem (UCTP) is a scheduling problem in which a set of events
+(lectures, labs) are to be assigned locations (lecture halls, computer rooms) and time slots (time and date)
+while satisfying a number of constraints such as avoiding double-booking of locations, ensuring that
+events are assigned to locations equipped with suitable features (projectors, fume hoods) and minimizing
+the number of events overlapping in time that have the same participants (lecturers, student groups).
+
+\red{There are many variants of UCTP ...}
+
+More formally, \red{most real-world applicable variants of?} UCTP is an NP-hard\parencite{lovelace} combinatorial optimization problem, meaning the % TODO: reformulate, UCTP is a combinatorial optimization problem that is NP-hard in most nontrivial instances (or something similar)
+search for optimal solutions to non-trivial problem instances is currently thought to be generally
+intractable, turning the attention to methods of approximation. Many methods of approximation fall
+under the umbrella term of metaheuristics\parencite{lewis}, which is a collection of algorithmic ideas
+often inspired by natural processes. Examples of metaheuristics include evolutionary algorithms,
+simulated annealing and ant colony optimization. The current state of the art lies in hybrid
+metaheuristics where a population-based method is combined with some form of local
+search\parencite{ilyas-iqbal}.
+
+\section{Previous research}
+\begin{itemize}
+\item \blue{Super brief history of UCTP}
+\item \red{Yamazaki-Pertoft Genetic Algorithm\parencite{yamazaki-pertoft}}
+\item \red{Renman-Fristedt Tabu Search\parencite{renman-fristedt}}
+\end{itemize}
+
+\section{Problem statement}
+\begin{itemize}
+\item \red{Which hybridization strategy yields the most effective UCTP solver?}
+\item \red{Can hybridization improve scalability?}
+\end{itemize}
+
+\chapter{Background}
+\section{The University Course Timetabling Problem}
+\blue{More depth on UCTP including types of constraints}
+
+\subsection{Formal description}
+\blue{Formal description of the UCTP variant being solved by algorithms in this work - does this belong here? or under Method?}
+
+\section{Metaheuristics}
+\blue{Brief history and description of metaheuristics}
+
+\subsection{Genetic Algorithms}
+\blue{General description followed by pseudocode for the genetic algorithm used}
+
+\subsection{Tabu Search}
+\blue{Description and pseudocode for Tabu Search}
+
+\section{Hybridization strategies}
+\blue{Brief thoughts on how there are many different strategies}
+\subsection{Switchover}
+\blue{Describing the basic idea of switching algorithms at some threshold fitness}
+
+\subsection{Interleaving}
+\blue{Describing the basic idea of alternating between the two algorithms and substrategies in 
+only alternating at certain thresholds}
+
+\red{Definition: to arrange (an operation) so that two or more programs, sets of instructions, etc., are performed in an alternating fashion. - Dictionary.com}
+
+\chapter{Method}
+\section{Implementation}
+\blue{Description of the specific algorithm variants / hybridization strategies actually used in the experiment}
+\section{Experiment}
+\blue{Description of the YP testcases used (KTH\_M, KTH\_L etc))}
+
+\chapter{Results}
+\section{Preliminary results}
+\bgroup
+\renewcommand{\arraystretch}{1.5}
+\begin{tabular}{|l l r r|}
+\hline
+Testcase & Algorithm & Trials & Average (seconds)\\
+\hline
+KTH_M & YPGA & 10 & 6.8 s\\
+KTH_M & Interleave & 10 & 5.7 s\\
+\hline
+KTH_L & YPGA & 10 & 52.9 s\\
+KTH_L & Interleave & 10 & 17.9 s\\
+\hline
+\end{tabular}
+\egroup
+
+\chapter{Discussion}
+\section{Improvements}
+\begin{itemize}
+\item \red{Use more improved candidates from TS when updating the GA}
+\item \red{Parallelization - run both GA and TS at the same time, when one finds an improvement, update the other one}
+\end{itemize}
+
+\chapter{Conclusion}
+
+\printbibliography[heading=bibintoc] % Print the bibliography (and make it appear in the table of contents)
+
+\appendix
+
+\chapter{Unnecessary Appended Material}
+
+\end{document}

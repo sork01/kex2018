@@ -1,0 +1,17 @@
+[0] Config.pm:302> INFO - This is Biber 2.10
+[0] Config.pm:305> INFO - Logfile is 'draft.blg'
+[27] biber-MSWIN32:313> INFO - === 
+[53] Biber.pm:371> INFO - Reading 'draft.bcf'
+[137] Biber.pm:857> INFO - Found 7 citekeys in bib section 0
+[149] Biber.pm:3976> INFO - Processing section 0
+[161] Biber.pm:4136> INFO - Looking for bibtex format file 'sources.bib' for section 0
+[168] bibtex.pm:1490> INFO - LaTeX decoding ...
+[186] bibtex.pm:1306> INFO - Found BibTeX data source 'sources.bib'
+[194] Utils.pm:193> WARN - month field 'January' in entry 'choset' is not an integer - this will probably not sort properly.
+[214] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[214] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[214] Biber.pm:3804> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[214] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
+[220] bbl.pm:617> INFO - Writing 'draft.bbl' with encoding 'UTF-8'
+[222] bbl.pm:720> INFO - Output to draft.bbl
+[226] Biber.pm:110> INFO - WARNINGS: 1

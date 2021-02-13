@@ -1,0 +1,54 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {english}{}
+\babel@toc {swedish}{}
+\babel@toc {english}{}
+\babel@toc {swedish}{}
+\babel@toc {english}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}Introduction}{1}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}Background}{3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}Previous research}{3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.1}Algorithms}{4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Boustrophedon}{4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Spiral}{5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Random walk}{6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Wall follow}{7}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Spiral + Wall follow}{8}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{All combined}{8}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}Problem statement}{8}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Method}{10}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}Simulation}{10}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.1}Rooms}{11}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}Benchmarks}{13}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Results}{14}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}Room type 1}{14}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}Room type 2}{16}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.3}Room type 3}{17}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.4}Room type 4}{19}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Discussion}{21}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}Conclusion}{22}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliography}{23}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}Unnecessary Appended Material}{24}

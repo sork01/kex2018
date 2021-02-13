@@ -1,0 +1,46 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {english}{}
+\babel@toc {swedish}{}
+\babel@toc {english}{}
+\babel@toc {swedish}{}
+\babel@toc {english}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}Introduction}{1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.1}Previous research}{2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.2}Problem statement}{2}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}Theory}{3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}Boustrophedon}{3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}Spiral}{4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.3}Random walk}{4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.4}Wall follow}{5}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Method}{6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}Simulation}{6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.1}Rooms}{6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.2}Computational complexity}{6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}Implementation}{6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.3}Benchmarks}{6}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Results}{7}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}Simulation Results}{7}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Discussion}{8}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}Conclusion}{9}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliography}{10}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}Unnecessary Appended Material}{11}

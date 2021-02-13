@@ -1,0 +1,154 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{centurion}{misc}{}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{http://robotdammsugare.org/centurion-rde125/}}
+      \field{note}{[Online; accessed 24-Mars-2018]}
+      \field{title}{{Centurion RDE 125}}
+      \field{year}{2018}
+    \endentry
+    \entry{choset}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=72811108dcbc25428de5c7e317f511ed}{%
+           family={Choset},
+           familyi={C\bibinitperiod},
+           given={Howie},
+           giveni={H\bibinitperiod}}}%
+        {{hash=0c0bbe9b8758a7d40bf9d7b0d5643b04}{%
+           family={Pignon},
+           familyi={P\bibinitperiod},
+           given={Philippe},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{fe19a0f703c1f2fccf9084e972f85aef}
+      \strng{fullhash}{fe19a0f703c1f2fccf9084e972f85aef}
+      \strng{bibnamehash}{fe19a0f703c1f2fccf9084e972f85aef}
+      \strng{authorbibnamehash}{fe19a0f703c1f2fccf9084e972f85aef}
+      \strng{authornamehash}{fe19a0f703c1f2fccf9084e972f85aef}
+      \strng{authorfullhash}{fe19a0f703c1f2fccf9084e972f85aef}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{International Conference on Field and Service Robotics}
+      \field{month}{1}
+      \field{title}{Coverage Path Planning: The Boustrophedon Decomposition}
+      \field{year}{1997}
+    \endentry
+    \entry{galceran}{article}{}
+      \name{author}{1}{}{%
+        {{hash=b217bd2374e08c70001e1021b7b651d5}{%
+           family={Galceran},
+           familyi={G\bibinitperiod},
+           given={Enric},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{b217bd2374e08c70001e1021b7b651d5}
+      \strng{fullhash}{b217bd2374e08c70001e1021b7b651d5}
+      \strng{bibnamehash}{b217bd2374e08c70001e1021b7b651d5}
+      \strng{authorbibnamehash}{b217bd2374e08c70001e1021b7b651d5}
+      \strng{authornamehash}{b217bd2374e08c70001e1021b7b651d5}
+      \strng{authorfullhash}{b217bd2374e08c70001e1021b7b651d5}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Robotics and Autonomous Systems}
+      \field{number}{61}
+      \field{title}{A survey on coverage path planning for robotics}
+      \field{year}{2013}
+      \field{pages}{1258\bibrangedash 1276}
+      \range{pages}{19}
+    \endentry
+    \entry{hasan}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=6e5af453b3128a4f3ae13683fab69b37}{%
+           family={Hasan},
+           familyi={H\bibinitperiod},
+           given={Kazi\bibnamedelima Mahmud},
+           giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{institution}{2}{%
+        {Electronics}%
+        {Communication Engineering Discipline Khulna University, Bangladesh}%
+      }
+      \strng{namehash}{6e5af453b3128a4f3ae13683fab69b37}
+      \strng{fullhash}{6e5af453b3128a4f3ae13683fab69b37}
+      \strng{bibnamehash}{6e5af453b3128a4f3ae13683fab69b37}
+      \strng{authorbibnamehash}{6e5af453b3128a4f3ae13683fab69b37}
+      \strng{authornamehash}{6e5af453b3128a4f3ae13683fab69b37}
+      \strng{authorfullhash}{6e5af453b3128a4f3ae13683fab69b37}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Path Planning Algorithm Development for Autonomous Vacuum Cleaner Robots}
+      \field{year}{2014}
+    \endentry
+    \entry{rekl}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=b47c2dc8dc3c61fadae36fa40955b725}{%
+           family={Rekleitis},
+           familyi={R\bibinitperiod},
+           given={Ioannis},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {School of Computer Science, McGill University, Montreal, Canada}%
+      }
+      \strng{namehash}{b47c2dc8dc3c61fadae36fa40955b725}
+      \strng{fullhash}{b47c2dc8dc3c61fadae36fa40955b725}
+      \strng{bibnamehash}{b47c2dc8dc3c61fadae36fa40955b725}
+      \strng{authorbibnamehash}{b47c2dc8dc3c61fadae36fa40955b725}
+      \strng{authornamehash}{b47c2dc8dc3c61fadae36fa40955b725}
+      \strng{authorfullhash}{b47c2dc8dc3c61fadae36fa40955b725}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Efficient Boustrophedon Multi-Robot Coverage: an algorithmic approach}
+      \field{year}{2009}
+    \endentry
+    \entry{irobot}{misc}{}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{http://www.irobot.se/Home-Robots/Dammsugning}}
+      \field{note}{[Online; accessed 16-February-2018]}
+      \field{title}{{Roomba - Dammsugartyper}}
+      \field{year}{2018}
+    \endentry
+    \entry{scantic}{misc}{}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{http://robotnyheter.se/2013/12/04/ny-robotdammsugare-for-499-kronor-hos-netonnet/}}
+      \field{note}{[Online; accessed 16-February-2018]}
+      \field{title}{{Scantic robot cleaner 10}}
+      \field{year}{2018}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
